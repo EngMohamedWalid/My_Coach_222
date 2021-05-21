@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rt_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/ic_rtback" />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/rt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapetext_r"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            app:hintEnabled="false"
+            >
+
+
+            <EditText
+                android:id="@+id/rt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapetext_r"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                android:hint="@string/phone"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:inputType="phone"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/rt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapetext_r"
+                android:drawableStart="@drawable/icon_email"
+                android:drawablePadding="10dp"
+                android:hint="@string/email"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+
+            <EditText
+                android:id="@+id/rt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapetext_r"
+                android:drawableStart="@drawable/icon_password"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            app:hintEnabled="false"
+            >
+
+
+            <EditText
+                android:id="@+id/rt_dat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapetext_r"
+                android:drawableStart="@drawable/ic_dae"
+                android:drawablePadding="10dp"
+                android:hint="@string/date_of_birth"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:inputType="date"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="40dp"
+               android:layout_marginRight="40dp"
+               android:layout_gravity="center_horizontal"
+               android:orientation="horizontal">
+
+               <RadioButton
+                   android:id="@+id/rb_Trainee"
+
+                   android:layout_width="match_parent"
+                   android:text="@string/trainee"
+                   android:textColor="@color/white"
+                   android:layout_weight="1"
+                   android:checked="true"
+                   android:textSize="20sp"
+                   android:layout_marginStart="10dp"
+                   android:layout_height="wrap_content"/>
+               <RadioButton
+                   android:id="@+id/rb_Coach"
+                   android:layout_width="match_parent"
+                   android:layout_weight="1"
+                   android:text="@string/coach"
+                   android:textColor="@color/white"
+                   android:textSize="20sp"
+                   android:layout_marginStart="10dp"
+                   android:layout_height="wrap_content"/>
+
+           </RadioGroup>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/rt_regest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/darkeblue"
+            android:text="@string/regestrat"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tr_progres"
+        android:visibility="gone"/>
+
+</RelativeLayout>

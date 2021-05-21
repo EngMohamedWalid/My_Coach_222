@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My_Coach</string>
+    <string name="app_word">Your personal trainer in your pocket</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email:</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="creat">Create an account</string>
+    <string name="title_activity_regestration">Regestration</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="regestrat">Regestrat</string>
+    <string name="name">Name:</string>
+    <string name="phone">Phone:</string>
+    <string name="certificates">Certificates:</string>
+    <string name="specialization">Specialization:</string>
+    <string name="address">Address</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="remind_me">remind me</string>
+    <string name="Home">home</string>
+    <string name="Search">search</string>
+    <string name="Favorite">favorite</string>
+    <string name="Profile">profile</string>
+    <string name="Chat">chat</string>
+    <string name="language">Language</string>
+    <string name="dark_mode">dark mode</string>
+    <string name="settings">Settings</string>
+    <string name="contact_us">Contact us</string>
+    <string name="privacy">Privacy</string>
+    <string name="share">Share</string>
+    <string name="account">Account:</string>
+    <string name="phoneSiting">Phone:</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="thme">Thme</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="engish">Engish</string>
+    <string name="arabic">arabic</string>
+    <string name="log_out">Log out</string>
+    <string name="save">save</string>
+    <string name="coach">Coach</string>
+    <string name="trainee">Trainee</string>
+    <string name="forget_pass">Forget Pass?</string>
+    <string name="forget_password">forget password</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="restor_your_password">Restor Your Password</string>
+    <string name="default_notification_channel_id" translatable="false">Notification</string>
+</resources>

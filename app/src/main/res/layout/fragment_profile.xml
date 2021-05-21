@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shapetext_cardview"
+    tools:context=".Fragment.ProfileFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <ProgressBar
+           android:id="@+id/ProgressBarProfil"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+           android:indeterminate="true"
+           android:visibility="gone"/>
+       <TextView
+           android:id="@+id/user_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="30dp"
+           android:textSize="40sp"
+           android:textColor="@color/blue"
+            />
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/profile_image"
+           android:layout_width="120dp"
+           android:layout_height="120dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="20dp"
+           android:src="@mipmap/ic_launcher"
+           app:civ_border_color="#FF000000"
+           app:civ_border_width="2dp" />
+
+       <LinearLayout
+           android:id="@+id/btn_sitting"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="8dp"
+               android:layout_gravity="center_vertical"
+               android:src="@drawable/ic_setting"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="8dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="8dp"
+                   android:text="@string/settings"
+                   android:textColor="@color/white"
+                   android:textSize="25sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/btn_contact"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="8dp"
+               android:layout_gravity="center_vertical"
+               android:src="@drawable/ic_conect_use"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="8dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="8dp"
+                   android:text="@string/contact_us"
+                   android:textSize="25sp"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/btn_privacy"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+               android:padding="8dp"
+               android:src="@drawable/ic_privacy" />
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="8dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="8dp"
+                   android:text="@string/privacy"
+                   android:textSize="25sp"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+       </LinearLayout> <LinearLayout
+           android:id="@+id/btn_Share"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+               android:padding="8dp"
+               android:src="@drawable/ic_share" />
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="8dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="8dp"
+                   android:text="@string/share"
+                   android:textColor="@color/white"
+                   android:textSize="25sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/btn_log_out"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+               android:padding="8dp"
+               android:src="@drawable/ic_log_out" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="8dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:padding="8dp"
+                   android:text="@string/log_out"
+                   android:textSize="25sp"
+                   android:textColor="@android:color/holo_red_dark"
+                   android:textStyle="bold"/>
+
+           </LinearLayout>
+       </LinearLayout>
+
+
+   </LinearLayout>
+</androidx.core.widget.NestedScrollView>

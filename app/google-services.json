@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550568326663",
+    "project_id": "graduation-project-6c705",
+    "storage_bucket": "graduation-project-6c705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550568326663:android:265e61c4f38d637d3edca2",
+        "android_client_info": {
+          "package_name": "com.example.my_coach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550568326663-r279lh1ekopn98bkkjc97iia20vge3ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApBvtlT3PHvvD8gPiWG01FJU4dCvN_96c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550568326663-r279lh1ekopn98bkkjc97iia20vge3ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
